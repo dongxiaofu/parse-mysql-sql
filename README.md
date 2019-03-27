@@ -7,6 +7,7 @@
 使用例子：
 
 ```
+    <?php
     $parser = new SqlParser();
     $file = 'tests/sql-example.sql';
     $parser->parseSQL($file);
