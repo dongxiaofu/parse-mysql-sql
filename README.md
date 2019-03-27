@@ -8,7 +8,7 @@
 
 ```
     $parser = new SqlParser();
-    $file = 'sql-example.sql';
+    $file = 'tests/sql-example.sql';
     $parser->parseSQL($file);
     $parser->createAllDocument('test.md');
 
